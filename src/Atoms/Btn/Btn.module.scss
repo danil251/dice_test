@@ -1,0 +1,39 @@
+@import "../../assets/style/style";
+
+.btn {
+  background-color: $purple_dark;
+  padding: 10px 16px;
+  border-radius: 5px;
+  border-bottom: 1px solid $purple_border_dark;
+  cursor: pointer;
+  max-width: 165px;
+  font-size: 16px;
+}
+.hover:hover {
+  transition: .3s;
+  background-color: $purple_light;
+  border-bottom: 1px solid $purple_border_light;
+}
+.active {
+  background-color: $yellow;
+}
+
+.green {
+  background-color: $green_dark;
+  border-bottom: 1px solid $green_border_dark;
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: 16px;
+}
+.green:hover {
+  transition: .3s;
+  background-color: $green_light;
+  border-bottom: 1px solid $green_border_dark;
+}
+.btn:disabled {
+  opacity: 0.6;
+  &:hover {
+    background-color: $green_dark;
+  }
+}

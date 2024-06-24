@@ -1,0 +1,25 @@
+$purple_dark: #643F82;
+$purple_select: #73528e;
+$purple_light: #8151A8;
+$purple_border_dark: #9159BE;
+$purple_border_light: #AB69E2;
+$yellow: #F6A200;
+$green_dark: #37AC00;
+$green_light: #41CA00;
+$green_border_light: #7DFF3F;
+$green_border_dark: #55F30A;
+$grey_dark: #94A3B8;
+$grey_light: #CBD5E1;
+$white: #fff;
+$black: #000;
+$red: #FF0000;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: $white;
+  border: none;
+  outline: none;
+}

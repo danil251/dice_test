@@ -1,0 +1,39 @@
+@import "../../assets/style/style";
+
+.container {
+  position: absolute;
+  z-index: 111;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0, .7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  width: 434px;
+  background-color: #250E36;
+  border: 1px solid #4B2964;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+}
+.wrapper {
+  width: 100%;
+}
+.close {
+  svg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  &:hover path {
+    fill: #CBE1FF;
+  }
+}

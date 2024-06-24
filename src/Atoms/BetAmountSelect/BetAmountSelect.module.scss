@@ -1,0 +1,42 @@
+@import "../../assets/style/style";
+
+.wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.select {
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: $black;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  option {
+    color: $black;
+  }
+}
+.arrow {
+  position: absolute;
+  top: 32px;
+  right: 15px;
+  width: 16px;
+  height: 16px;
+  transition: .3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activeArrow {
+  transform: rotate(180deg);
+  transition: .3s;
+}
+.title {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}

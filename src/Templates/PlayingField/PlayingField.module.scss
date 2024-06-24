@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .wrapper {
+    width: 338px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+  }
+}
+
+.blur {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11;
+  background-color: rgb(0, 0, 0, .2);
+}
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.result {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.titleWrapper {
+  height: 48px;
+}

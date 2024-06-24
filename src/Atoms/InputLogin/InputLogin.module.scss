@@ -1,0 +1,27 @@
+@import "src/assets/style/style";
+
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 5px;
+  border: 1px solid $grey_light;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #808080;
+}
+
+.errorInput {
+  border: 1px solid $red;
+}
+
+.error {
+  color: $red;
+  font-size: 12px;
+  position: absolute;
+  bottom: 4px;
+}

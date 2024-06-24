@@ -1,0 +1,45 @@
+@import "../../assets/style/style";
+
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.select {
+  background-color: $purple_dark;
+  padding: 10px 16px;
+  border-radius: 5px;
+  border-bottom: 1px solid $purple_border_dark;
+  cursor: pointer;
+  width: 338px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 16px;
+}
+
+.hover:hover {
+  transition: .3s;
+  background-color: $purple_light;
+  border-bottom: 1px solid $purple_border_light;
+}
+
+.active {
+  background-color: $yellow;
+}
+
+.value {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: $purple_select;
+  padding: 4px 8px;
+  color: $purple_dark;
+  border-radius: 5px;
+}
+.activeValue {
+  background-color: $white;
+  color: $black;
+  font-weight: 400;
+  font-size: 14px;
+}
